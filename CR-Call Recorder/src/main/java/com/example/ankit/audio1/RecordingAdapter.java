@@ -30,6 +30,7 @@ public class RecordingAdapter extends RecyclerView.Adapter<RecordingAdapter.View
         return new ViewHolder(view);
     }
 
+
     @Override
     public void onBindViewHolder(final RecordingAdapter.ViewHolder holder, int position) {
         final String fileName=recordings.get(position).getName();
