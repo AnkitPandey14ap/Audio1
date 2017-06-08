@@ -23,6 +23,7 @@ public class PlayRecords {
             e.printStackTrace();
         }
     }
+    //
     /*void pause() {
         mediaPlayer.pause();
     }
